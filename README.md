@@ -98,9 +98,9 @@ Since sigmoid gates are always positive, `|gate| = gate`, so the L1 norm is simp
 
 | λ (Lambda) | Test Accuracy | Sparsity |
 |------------|:-------------:|:--------:|
-| `1e-5` (low) | ~65% | ~20–35% |
-| `5e-4` (balanced) | ~60% | ~55–70% |
-| `2e-3` (aggressive) | ~52% | ~80–92% |
+| `1e-5`     | 83.04%        | 47.3%    |
+| `5e-4`     | ~84.99%       | 99.2%    |
+| `2e-3`     | ~52%          | ~80–92%  |
 
 > Results from 40 epochs on real CIFAR-10 with CNN backbone.
 
