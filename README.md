@@ -99,7 +99,7 @@ Since sigmoid gates are always positive, `|gate| = gate`, so the L1 norm is simp
 |------------|:-------------:|:--------:|
 | `1e-5`     | 83.04%        | 47.3%    |
 | `5e-4`     | 84.99%        | 99.2%    |
-| `2e-3`     | ~52%          | 100%     |
+| `2e-3`     | 84.45%        | 100%     |
 
 > Results from 40 epochs on real CIFAR-10 with CNN backbone.
 
