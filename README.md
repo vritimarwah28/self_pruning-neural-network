@@ -5,7 +5,6 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch)
 ![CIFAR-10](https://img.shields.io/badge/Dataset-CIFAR--10-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
 
@@ -99,8 +98,8 @@ Since sigmoid gates are always positive, `|gate| = gate`, so the L1 norm is simp
 | λ (Lambda) | Test Accuracy | Sparsity |
 |------------|:-------------:|:--------:|
 | `1e-5`     | 83.04%        | 47.3%    |
-| `5e-4`     | ~84.99%       | 99.2%    |
-| `2e-3`     | ~52%          | ~80–92%  |
+| `5e-4`     | 84.99%        | 99.2%    |
+| `2e-3`     | ~52%          | 100%     |
 
 > Results from 40 epochs on real CIFAR-10 with CNN backbone.
 
@@ -196,11 +195,3 @@ This is explained by the sigmoid's S-curve. Gates initialise at `sigmoid(+2) ≈
 ```
 
 ---
-
-## 📄 License
-
-MIT License — feel free to use, modify, and distribute.
-
----
-
-*Built as part of the Tredence Analytics — AI Engineering Internship Case Study.*
