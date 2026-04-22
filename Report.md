@@ -14,10 +14,10 @@ A gate of 0 means that weight is completely removed from the network.
 |--------|------------------|-------------------|
 | 1e-5   |        83.04%    |     47.3%         |
 | 5e-4   |        84.99%    |     99.2%         |
-| 2e-3   |                  |                   |
+| 2e-3   |        84.45%    |     100%          |
 
 ## Observations
 
 - Higher lambda = more sparsity but lower accuracy
 - Lower lambda = better accuracy but fewer weights pruned
-- Best model: lambda =
+- Best model: lambda =5e-4
